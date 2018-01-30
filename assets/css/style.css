@@ -1,0 +1,100 @@
+
+body{
+    margin: 10px;
+    background-color: #fff;
+    background-image: url(../media/24c.png);
+    background-attachment: fixed;
+    word-wrap: break-word;
+}
+
+/** ----------------------------------------------------------------- **/
+
+/** --------------------------- TITLE TEXT -------------------------- **/
+
+#main {margin-top: 20px;text-align: center;}
+
+#titlet {
+    color: #4fa983;
+    font-size: 32px;
+    font-family: courier;
+    text-shadow: -2px 2px 0 #73d1ac; 
+        /** maybe change shade for this **/
+}
+.bracket {
+    color: #fff; 
+    font-style: normal;
+}
+
+/** ----------------------------------------------------------------- **/
+
+/** --------------------------- NAVIGATION -------------------------- **/
+
+#nav {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    text-align: center;
+}
+
+#nav a {
+    margin: 0 3px;
+    padding: 2px 4px;
+    color: #fff; 
+    background-color: #ea8370;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-family: Courier New, Courier, monospace;
+    letter-spacing: 1px;
+    line-height: 25px;
+    transition: linear 0.3s;
+}
+
+#nav a:hover {
+    color: #888; 
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    font-style: italic;
+}
+
+/** ----------------------------------------------------------------- **/
+
+/** ------------------------- HEADER & TEXT ------------------------- **/
+
+.block {
+    max-width: 500px;
+    margin: 5px;
+}
+
+.head {
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: #fff; 
+    /**background-color: #72d1a9;**/
+    background-color: #59c99a;
+    font-size: 16px;
+    font-family: Courier New, Courier, monospace;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.head:hover {
+    /**background-color: #ea8370;**/
+    background-color: #e33f47;
+}
+
+.bodytext {
+    margin-top: 4px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: .0035%;
+    padding-bottom: .0035%;
+    color: #000; 
+    background-color: #F5F5F5; 
+    border-left: 0 solid #fffccc;
+    font-size: 12px;
+    font-family: Quicksand;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+/** ----------------------------------------------------------------- **/
