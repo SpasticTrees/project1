@@ -1,5 +1,5 @@
 
-body{
+body {
     margin: 10px;
     background-color: #fff;
     background-image: url(../media/24c.png);
@@ -11,7 +11,7 @@ body{
 
 /** --------------------------- TITLE TEXT -------------------------- **/
 
-#main {margin-top: 20px;text-align: center;}
+#main { margin-top: 20px; text-align: center; }
 
 #titlet {
     color: #4fa983;
@@ -63,6 +63,8 @@ body{
 .block {
     max-width: 500px;
     margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .head {
@@ -75,6 +77,7 @@ body{
     font-family: Courier New, Courier, monospace;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .head:hover {
@@ -96,5 +99,15 @@ body{
     text-align: left;
     letter-spacing: 1px;
 }
+
+/** ----------------------------------------------------------------- **/
+
+/** ----------------------------- MISC. ----------------------------- **/
+
+#copyright { color:white; }
+
+.centeredpara { text-align: center; }
+
+figure { text-align: center; }
 
 /** ----------------------------------------------------------------- **/
