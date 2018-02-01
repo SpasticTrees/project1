@@ -126,5 +126,6 @@ body {
 figure { text-align: center; }
 
 .ulcolumn { column-count: 2; }
+.ulcentered { text-align: center; padding: 0px; }
 
 /** ----------------------------------------------------------------- **/
