@@ -96,9 +96,26 @@ body {
     border-left: 0 solid #fffccc;
     font-size: 12px;
     font-family: Quicksand;
-    text-align: left;
     letter-spacing: 1px;
 }
+
+
+.bodytextcenter {
+    margin-top: 4px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: .0035%;
+    padding-bottom: .0035%;
+    color: #000; 
+    background-color: #F5F5F5; 
+    border-left: 0 solid #fffccc;
+    font-size: 12px;
+    font-family: Quicksand;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.bodytextcenter a { color: #888 }
+.bodytextcenter a:hover { color: #ea8370 }
 
 /** ----------------------------------------------------------------- **/
 
@@ -106,8 +123,8 @@ body {
 
 #copyright { color:white; }
 
-.centeredpara { text-align: center; }
-
 figure { text-align: center; }
+
+.ulcolumn { column-count: 2; }
 
 /** ----------------------------------------------------------------- **/
