@@ -1,10 +1,8 @@
 
 body {
     margin: 10px;
-    background-color: #fff;
     background-image: url(../media/24c.png);
     background-attachment: fixed;
-    word-wrap: break-word;
 }
 
 /** ----------------------------------------------------------------- **/
@@ -101,9 +99,7 @@ body {
 .bodytextbold { font-weight: bold; }
 
 
-.bodytextcenter {
-    text-align: center;
-}
+.bodytextcenter { text-align: center; }
 .bodytextcenter a { color: #888 }
 .bodytextcenter a:hover { color: #ea8370 }
 
